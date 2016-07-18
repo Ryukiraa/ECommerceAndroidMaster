@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nominal Transaksi"
+            android:id="@+id/textViewNominalTransaksi"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextNominalTransaksi"
+            android:textSize="25dp"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/buttonOk"
+            android:layout_gravity="right"
+            style="@style/LoginFormContainer"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp" />
+    </LinearLayout>
+
+</RelativeLayout>
